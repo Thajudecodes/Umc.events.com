@@ -17,7 +17,7 @@
         header {
             padding: 20px;
             text-align: center;
-            border-bottom: 2px solid #fff; /* White border at the bottom of header */
+            border-bottom: 2px solid #fff; /* White border at the bottom of the header */
         }
 
         .logo img {
@@ -62,10 +62,14 @@
             background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for better readability */
         }
 
+        #offers {
+            background-color: #800080; /* Purple background color for Special Offers */
+        }
+
         footer {
             text-align: center;
             padding: 20px;
-            border-top: 2px solid #fff; /* White border at the top of footer */
+            border-top: 2px solid #fff; /* White border at the top of the footer */
         }
 
         .whatsapp-btn {
@@ -97,10 +101,24 @@
             padding: 0;
         }
 
-        .services-list h4 {
+        .services-list li {
             margin: 10px 0;
             font-size: 16px;
             list-style: disc outside none;
+        }
+
+        .book-now-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #4caf50; /* Green button color */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        #offers h2 {
+            color: #fff; /* White text color for Special Offers heading */
         }
     </style>
 </head>
@@ -130,22 +148,29 @@
     <section id="services">
         <h1>Our Services</h1>
         <ul class="services-list">
-            <li><h4>AD FILM CREATION AND RELEASING</h4></li>
-            <li><h4>MARRIAGE EVENTS</h4></li>
-            <li><h4>SHOWROOM INAUGURATION EVENTS</h4></li>
-            <li><h4>COMPANY PROMOTIONS</h4></li>
-            <li><h4>MODEL MANAGEMENT</h4></li>
-            <li><h4>ROAD SHOWS</h4></li>
-            <li><h4>MEGA SHOWS COORDINATION</h4></li>
-            <li><h4>VISITING CARD AND BROCHURE DESIGN</h4></li>
-            <li><h4>ALL TYPE BOARD WORKS</h4></li>
+            <li>Catering</li>
+            <li>Stage Decorations</li>
+            <li>Video and Photography</li>
+            <li>Makeup</li>
+            <li>House Warming</li>
+            <li>Birthday and Family Get Together</li>
+            <li>Ad Film Creation and Releasing</li>
+            <li>Marriage Events</li>
+            <li>Showroom Inauguration Events</li>
+            <li>Company Promotions</li>
+            <li>Model Management</li>
+            <li>Road Shows</li>
+            <li>Mega Shows Coordination</li>
+            <li>Visiting Card and Brochure Design</li>
+            <li>All Type Board Works</li>
         </ul>
+        <a href="#offers" class="book-now-btn">Book Now</a>
     </section>
 
     <section id="contact">
         <h2>Contact Us</h2>
         <p>Feel free to reach out to us for any inquiries or quotes.</p>
-        <p>mobile : +91 97449 00066</p>
+        <p>Mobile: +91 97449 00066</p>
         <a href="https://instagram.com/umc_eventmanagement" target="_blank">
             <img src="pngwing.com.png" alt="Instagram Icon" style="max-height: 30px;">
         </a>
@@ -158,14 +183,20 @@
         <div class="quote">"We are dedicated to creating exceptional events that leave a lasting impression. Our attention to detail, creativity, and commitment to excellence set us apart."</div>
     </section>
 
+    <!-- Special Offers Section -->
+    <section id="offers">
+        <h2>Special Offers</h2>
+        <p>Check out our special offers for a limited time!</p>
+        <!-- Add your special offers here -->
+    </section>
+
     <footer>
         <p>&copy; 2023 UMC Event Management</p>
         <a href="https://maps.app.goo.gl/itPsRzgQp6MwhX2x6" class="map-link" target="_blank">View on Google Maps</a>
     </footer>
 
     <!-- WhatsApp button -->
-    <a href="https://wa.me/919744900066" class="whatsapp-btn" target="_blank" >WHATSAPP US>
-    </a>
+    <a href="https://wa.me/919744900066" class="whatsapp-btn" target="_blank">WhatsApp Us</a>
 
 </body>
 
