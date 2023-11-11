@@ -10,11 +10,13 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-image: url('Screenshot_2023-11-11-12-11-26-88_1c337646f29875672b5a61192b9010f9.jpg''); 
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* Set default text color */
         }
 
         header {
-            background-color: #007bff;
-            color: #fff;
             padding: 20px;
             text-align: center;
         }
@@ -37,7 +39,7 @@
 
         nav a {
             text-decoration: none;
-            color: #333;
+            color: #fff;
             font-weight: bold;
         }
 
@@ -46,11 +48,52 @@
             text-align: center;
         }
 
+        #services {
+            background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for better readability */
+        }
+
+        #contact {
+            background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for better readability */
+        }
+
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #007bff;
+        }
+
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366; /* WhatsApp Green */
             color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .map-link {
+            display: block;
+            margin: 20px 0;
+            color: #fff;
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .services-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .services-list h4 {
+            margin: 10px 0;
+            font-size: 16px;
+            list-style: disc outside none;
         }
     </style>
 </head>
@@ -59,43 +102,51 @@
 
     <header>
         <div class="logo">
-            
-            <img src="Umeshettan 20231111_105348.jpg" alt="UMC Event Management Logo"> 
-            
+            <img src="Umeshettan 20231111_105348.jpg" alt="UMC Event Management Logo">
         </div>
         <nav>
             <ul>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <section id="services">
+        <h1>Our Services</h1>
+        <ul class="services-list">
+            <li><h4>AD FILM CREATION AND RELEASING</h4></li>
+            <li><h4>MARRIAGE EVENTS</h4></li>
+            <li><h4>SHOWROOM INAUGURATION EVENTS</h4></li>
+            <li><h4>COMPANY PROMOTIONS</h4></li>
+            <li><h4>MODEL MANAGEMENT</h4></li>
+            <li><h4>ROAD SHOWS</h4></li>
+            <li><h4>MEGA SHOWS COORDINATION</h4></li>
+            <li><h4>VISITING CARD AND BROCHURE DESIGN</h4></li>
+            <li><h4>ALL TYPE BOARD WORKS</h4></li>
+        </ul>
+    </section>
+
     <section id="contact">
         <h2>Contact Us</h2>
         <p>Feel free to reach out to us for any inquiries or quotes.</p>
-        <!-- Include contact form or details here -->
+        <p>WhatsApp: +91 97449 00066</p>
+        <a href="https://maps.app.goo.gl/itPsRzgQp6MwhX2x6" class="map-link" target="_blank">View on Google Maps</a>
     </section>
 
-    <section id="services">
-        <h1>Our Services</h1>
-        <h4>We offer a wide range of event management services to make your event a success.</h4>
-        <h4>AD FILM CREATION AND RELEASING</h4>
-        <h4>MARRIAGE EVENTS</p>
-        <h4>SHOWROOM INAUGURATION EVENTS</h4>
-        <h4>COMPANY PROMOTIONS</h4>
-        <h4>MODEL MANAGEMENT</h4>
-        <h4>ROAD SHOWS</h4>
-        <h4>MEGA SHOWS COORDINATION</h4>
-        <h4>VISITING CARD AND BROCHURE DESIGN</h4>
-        <h4>ALL TYPE BOARD WORKS</h4>
+    <section id="why-us">
+        <h2>Why Us</h2>
+        <p>“Turning your events into unforgettable experiences.”</p>
+        <div class="quote">"We are dedicated to creating exceptional events that leave a lasting impression. Our attention to detail, creativity, and commitment to excellence set us apart."</div>
     </section>
 
     <footer>
         <p>&copy; 2023 UMC Event Management</p>
+        <a href="https://maps.app.goo.gl/itPsRzgQp6MwhX2x6" class="map-link" target="_blank">View on Google Maps</a>
     </footer>
+
+    <a href="https://wa.me/919744900066" class="whatsapp-btn" target="_blank">WhatsApp</a>
 
 </body>
 
-  </html>
-  
+</html>
